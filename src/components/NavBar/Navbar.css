@@ -1,28 +1,11 @@
-nav{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 0 5px;
-    background-color: #f8f9fa;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
 
-}
 
 .nav-bar-logo {
-    width: 100px;
+    width: 70px;
     height: auto;
+    margin-left: 5px;
     /* Add any other styles you need */
   }
 
-  a {
-    text-decoration: none;
-    color: #4512ff;
-    font-size: 2rem;
-    margin: 0 10px;
-  }
+
   
