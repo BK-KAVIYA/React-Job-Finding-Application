@@ -34,7 +34,7 @@
       "companyLogo": "/images/Spline.png",
       "minPrice": "40",
       "maxPrice": "50",
-      "salaryType": "Yearly",
+      "salaryType": "Monthly",
       "jobLocation": "Seattle",
       "postingDate": "2023-10-28",
       "experienceLevel": "Any experience",
