@@ -3,7 +3,7 @@ import InputField from '../components/InputField/InputField'
 
 function JobPostingdata({handleChange}) {
     const now=new Date();
-    console.log(now);
+    
 
     const twentyFourHoursAgo=new Date(now  - 24 * 60 * 60 * 1000);
     const sevenDaysAgo=new Date(now  - 7 * 24 * 60 * 60 * 1000);

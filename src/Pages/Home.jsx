@@ -3,6 +3,7 @@ import Banner from "../components/Banner/Banner";
 import Card from "../components/Card/card";
 import Jobs from "./Jobs";
 import Sidebar from "../SideBar/Sidebar";
+import Newslatter from "../components/NewsLatter/Newslatter";
 
 export const Home = () => {
   const [selectCategory, setSelectCategory] = useState(null);
@@ -69,7 +70,6 @@ export const Home = () => {
       filteredJobs = filteredItems;
     }
     if (selected) {
-      console.log(selected);
       filteredJobs = filteredJobs.filter(
         ({
           jobLocation,
@@ -77,13 +77,14 @@ export const Home = () => {
           experienceLevel,
           salaryType,
           employmentType,
-          postingdate,
+          postingDate,
         }) =>
           jobLocation.toLowerCase() === selected.toLowerCase() ||
           parseInt(maxPrice) <= parseInt(selected) ||
-          postingdate >= selected ||
           salaryType.toLowerCase() === selected.toLowerCase() ||
-          employmentType.toLowerCase() === selected.toLowerCase()
+          experienceLevel.toLowerCase() === selected.toLowerCase() ||
+          employmentType.toLowerCase() === selected.toLowerCase() ||
+          postingDate >= selected
       );
     }
     const { startIndex, endIndex } = calculatepageRange();
@@ -139,7 +140,7 @@ export const Home = () => {
             " "
           )}
         </div>
-        <div className="bg-white p-4 rounded">Right</div>
+        <div className="bg-white p-4 rounded"><Newslatter/></div>
       </div>
     </div>
   );

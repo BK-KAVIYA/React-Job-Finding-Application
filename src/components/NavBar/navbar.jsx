@@ -29,7 +29,7 @@ function Navbar() {
                     <li key={path} className='w-50 h-50 text-base text-primary hover-effect font-bold first:text-blue'>
                         <NavLink
                             to={path}
-                            activeClassName="active"
+                            className="active"
                         >
                             {title}
                         </NavLink>
@@ -55,7 +55,7 @@ function Navbar() {
             <li key={path} className='text-base text-white first:text-blue py-1'>
                 <NavLink
                     to={path}
-                    activeClassName="active"
+                    className="active"
                 >
                     {title}
                 </NavLink>
