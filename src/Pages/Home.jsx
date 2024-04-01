@@ -4,6 +4,8 @@ import Card from "../components/Card/card";
 import Jobs from "./Jobs";
 import Sidebar from "../SideBar/Sidebar";
 import Newslatter from "../components/NewsLatter/Newslatter";
+import Hero from "../components/Hero";
+import Services from "../components/Services";
 
 export const Home = () => {
   const [selectCategory, setSelectCategory] = useState(null);
@@ -96,6 +98,8 @@ export const Home = () => {
   console.log(result);
   return (
     <div>
+      <Hero />
+      <Services />
       <Banner query={query} handleInputChange={handleInputChange} />
       {/* main content */}
       <div className="bg-[#FAFAFA] md:grid grid-cols-4 gap-8 lg:px-24 py-12">

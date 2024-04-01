@@ -17,7 +17,7 @@ function Navbar() {
         {path:'/post-job',title:'Post A Job'},
     ]
   return (
-    <header className='max-w-screen-2xl container mx-auto xl:px-24 px-4'>
+    <header className='w-full mx-auto xl:px-4 px-4'>
         <nav className='flex justify-between items-center py-6'>
         <a className='flex items-center gap-2 text-2xl text-slate-950' href="/">
             <img className='nav-bar-logo' src={Logo} alt="logo" />
@@ -29,7 +29,7 @@ function Navbar() {
                     <li key={path} className='w-50 h-50 text-base text-primary hover-effect font-bold first:text-blue'>
                         <NavLink
                             to={path}
-                            className="active"
+                            activeClass="active"
                         >
                             {title}
                         </NavLink>
