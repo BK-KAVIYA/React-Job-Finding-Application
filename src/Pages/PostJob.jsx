@@ -19,7 +19,9 @@ function PostJob() {
     mode: "onChange",
     defaultValues: {},
   });
+
 const [jobTitle, setJobTitle] = useState("Full-Time");
+const [errMsg, setErrMsg] = useState("");
 
 const onSubmit = async (data) => {};
 
