@@ -1,6 +1,10 @@
 import { useState } from "react";
-
-import { jobs } from "../../public/";
+import { useForm } from "react-hook-form";
+import   JobTypes  from "../components/JobPost/JobTypes";
+import  jobs  from "../../public/jobs.json";
+import TextInput from "../components/JobPost/TextInput";
+import JobCard from "../components/JobPost/JobCard";
+import CustomButton from "../components/JobPost/CustomButton";
 
 
 function PostJob() {
