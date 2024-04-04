@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-
-import {  Header, ListBox } from "../components";
-import  companies  from "../../public/Data/data";
+import { companies }  from "../../public/Data/data";
 import CustomButton from "../components/JobPost/CustomButton";
+import ListBox from "../components/Companny/ListBox";
+import Header from "../components/Companny/Header";
+import Loading from "../components/Loading/Loading";
 
 const Companies = () => {
   const [page, setPage] = useState(1);

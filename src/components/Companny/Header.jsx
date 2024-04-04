@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineSearch, AiOutlineCloseCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
 import { popularSearch } from "../../../public/Data/data";
-import  HeroImage  from "../../../public/assets";
+import  HeroImage  from '../../../public/images/bg.jpg'
 import CustomButton from "../JobPost/CustomButton";
 
 const SearchInput = ({ placeholder, icon, value, setValue, styles }) => {

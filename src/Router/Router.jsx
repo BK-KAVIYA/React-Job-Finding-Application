@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import PostJob from "../Pages/PostJob";
 import JobDetail from "../Pages/JobDetail";
+import Companies from "../Pages/Companies";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
             path: "/",
             element:<Home />
         },
+        {
+          path: "/companies",
+          element:<Companies />
+      },
         {
           path: "/post-job",
           element:<PostJob/>
