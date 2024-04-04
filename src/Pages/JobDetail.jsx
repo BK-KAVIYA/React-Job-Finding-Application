@@ -90,7 +90,7 @@ const JobDetail = () => {
               title='Job Description'
               containerStyles={`w-full flex items-center justify-center py-3 px-5 outline-none rounded-full text-sm ${
                 selected === "0"
-                  ? "bg-black text-white"
+                  ? "bg-gray-200 text-white"
                   : "bg-white text-black border border-gray-300"
               }`}
             />
