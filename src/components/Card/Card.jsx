@@ -4,10 +4,10 @@ import '../../App.css'
 import {FiCalendar, FiClock, FiDollarSign, FiMapPin} from 'react-icons/fi'
 
 function Card({data}) {
-    const{ companyName,jobTitle,companyLogo,minPrice,maxPrice,salaryType,jobLocation,employmentType,postingDate,description }=data
+    const{ id,companyName,jobTitle,companyLogo,minPrice,maxPrice,salaryType,jobLocation,employmentType,postingDate,description }=data
   return (
         <section className='card'>
-            <Link to={"/"} className='flex gap-4 flex-col sm:flex-row items-start'>
+            <Link to={`/job-detail/${id}`} className='flex gap-4 flex-col sm:flex-row items-start'>
                 <img src={companyLogo} alt="company logo" className='w-20 h-20 rounded-full'/>
                 <div className='flex flex-col gap-2'>
                     <h4 className='text-primary mb-1'>{companyName}</h4>

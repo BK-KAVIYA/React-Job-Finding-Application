@@ -18,13 +18,11 @@ const JobDetail = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, [id]);
 
-  console.log(job)
-
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto mt-10'>
       <div className='w-full flex flex-col md:flex-row gap-10'>
         {/* LEFT SIDE */}
-        <div className='w-full h-fit md:w-2/3 2xl:2/4 bg-white px-5 py-10 md:px-10 shadow-md'>
+        <div className='w-full h-fit md:w-2/3 2xl:2/4 bg-purple-200 px-5 py-10 md:px-10 shadow-md'>
           <div className='w-full flex items-center justify-between'>
             <div className='w-3/4 flex gap-2'>
               <img
@@ -115,13 +113,11 @@ const JobDetail = () => {
 
                 <span className='text-base'>{job?.description}</span>
 
-                {
-                
-                job?.employmentType && (
+                {job?.detail[0].requirement && (
                   <>
                     <p className='text-xl font-semibold mt-8'>Requirement</p>
                     <span className='text-base'>
-                      {job?.employmentType}
+                      {job?.detail[0].requirement}
                     </span>
                   </>
                 )}

@@ -26,7 +26,7 @@ const [errMsg, setErrMsg] = useState("");
 const onSubmit = async (data) => {};
 
   return (
-    <div className='container mx-auto flex flex-col md:flex-row gap-8 2xl:gap-14 bg-[#f7fdfd] px-5'>
+    <div className='container mx-auto flex flex-col md:flex-row gap-8 2xl:gap-14 bg-[#f7fdfd] px-5 mt-10'>
       <div className='w-full h-fit md:w-2/3 2xl:2/4 bg-white px-5 py-10 md:px-10 shadow-md'>
         <div>
           <p className='text-gray-500 font-semibold text-2xl'>Job Post</p>
