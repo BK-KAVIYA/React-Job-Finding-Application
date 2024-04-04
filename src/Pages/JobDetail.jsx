@@ -18,6 +18,8 @@ const JobDetail = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, [id]);
 
+  console.log(job)
+
   return (
     <div className='container mx-auto'>
       <div className='w-full flex flex-col md:flex-row gap-10'>
@@ -71,7 +73,7 @@ const JobDetail = () => {
             <div className='bg-[#fed0ab] w-40 h-16 px-6 rounded-lg flex flex-col items-center justify-center'>
               <span className='text-sm'>No. of Applicants</span>
               <p className='text-lg font-semibold text-gray-700'>
-                {/* {job?.applicants?.length} */}
+                {job?.applicants?.length}
                 20
               </p>
             </div>
@@ -79,8 +81,7 @@ const JobDetail = () => {
             <div className='bg-[#cecdff] w-40 h-16 px-6 rounded-lg flex flex-col items-center justify-center'>
               <span className='text-sm'>No. of Vacancies</span>
               <p className='text-lg font-semibold text-gray-700'>
-                30
-                {/* {job?.vacancies} */}
+                {job?.vacancies}
               </p>
             </div>
           </div>
@@ -114,12 +115,13 @@ const JobDetail = () => {
 
                 <span className='text-base'>{job?.description}</span>
 
-                {job?.detail[0]?.requirement && (
+                {
+                
+                job?.employmentType && (
                   <>
                     <p className='text-xl font-semibold mt-8'>Requirement</p>
                     <span className='text-base'>
-                      Test required
-                      {/* {job?.detail[0]?.requirement} */}
+                      {job?.employmentType}
                     </span>
                   </>
                 )}
