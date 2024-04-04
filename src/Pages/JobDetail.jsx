@@ -90,7 +90,7 @@ const JobDetail = () => {
               title='Job Description'
               containerStyles={`w-full flex items-center justify-center py-3 px-5 outline-none rounded-full text-sm ${
                 selected === "0"
-                  ? "bg-gray-200 text-white"
+                  ? "bg-purple-600 text-white"
                   : "bg-white text-black border border-gray-300"
               }`}
             />
@@ -144,7 +144,7 @@ const JobDetail = () => {
           <div className='w-full'>
             <CustomButton
               title='Apply Now'
-              containerStyles={`w-full flex items-center justify-center text-white bg-black py-3 px-5 outline-none rounded-full text-base`}
+              containerStyles={`w-full flex items-center justify-center text-white bg-purple-600 py-3 px-5 outline-none rounded-full text-base`}
             />
           </div>
         </div>
@@ -154,7 +154,7 @@ const JobDetail = () => {
           <p className='text-gray-500 font-semibold'>Similar Job Post</p>
 
           <div className='w-full flex flex-wrap gap-4'>
-            {jobs?.slice(0, 6).map((job, index) => (
+            {jobs?.slice(0, 4).map((job, index) => (
               <JobCard job={job} key={index} />
             ))}
           </div>

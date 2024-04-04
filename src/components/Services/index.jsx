@@ -16,8 +16,8 @@ const Services = () => {
 	return (
 		<div className="w-full flex flex-col items-center gap-8 mt-16 mb-0 md:px-0 px-5">
 			<div className="flex flex-col gap-1 text-center">
-				<h1 className="font-semibold text-2xl text-indigo-500">Our Services</h1>
-				<p className="text-[15px] text-gray-600 max-w-[500px] leading-7">
+				<h1 className="font-semibold text-5xl text-indigo-500"><span className="text-black">Our</span> Services</h1>
+				<p className="text-[18px] text-gray-600 max-w-[500px] leading-7">
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet nisi
 					aspernatur eum quod.
 				</p>
