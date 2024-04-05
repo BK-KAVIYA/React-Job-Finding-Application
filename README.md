@@ -106,8 +106,20 @@ npm run dev
 Visit `http://localhost:5173/` in your browser to view the application.
 
 ## Screenshots
+_Landing Page_
+![Landing Page](https://github.com/BK-KAVIYA/Full-Stack-Job-Finding-Application/blob/main/public/UI/LandingPage.png)
 
-![Example Image](images/example.jpg)
+_Search Bar_
+![Search Bar](https://github.com/BK-KAVIYA/Full-Stack-Job-Finding-Application/blob/main/public/UI/Search.png)
+
+_Job List_
+![Job List](https://github.com/BK-KAVIYA/Full-Stack-Job-Finding-Application/blob/main/public/UI/JobList.png)
+
+_Job Details Page_
+![Landing Page](https://github.com/BK-KAVIYA/Full-Stack-Job-Finding-Application/blob/main/public/UI/jobDetails.png)
+
+_Landing Page_
+![Compan List Page](https://github.com/BK-KAVIYA/Full-Stack-Job-Finding-Application/blob/main/public/UI/CompanyList.png)
 
 ## Contributing
 
