@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { companies }  from "../../public/Data/data";
 import CustomButton from "../components/JobPost/CustomButton";
 import ListBox from "../components/Companny/ListBox";
-import Header from "../components/Companny/Header";
+import CompanyCard from "../components/Companny/CompanyCard";
 import Loading from "../components/Loading/Loading";
 
 const Companies = () => {
@@ -24,15 +24,6 @@ const Companies = () => {
 
   return (
     <div className='w-full'>
-      <Header
-        title='Find Your Dream Company'
-        handleClick={handleSearchSubmit}
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        location={cmpLocation}
-        setLocation={setSearchQuery}
-      />
-
       <div className='container mx-auto flex flex-col gap-5 2xl:gap-10 px-5 md:px-0 py-6 bg-[#f7fdfd]'>
         <div className='flex items-center justify-between mb-4'>
           <p className='text-sm md:text-base'>
@@ -47,7 +38,7 @@ const Companies = () => {
           </div>
         </div>
 
-        <div className='w-full flex flex-col gap-6'>
+        <div className='w-full flex flex-col gap-6 px-10 py-5'>
           {data?.map((cmp, index) => (
             <CompanyCard cmp={cmp} key={index} />
           ))}

@@ -12,7 +12,7 @@ function Navbar() {
 
     const navitems=[
         {path:'/',title:'Start a search'},
-        {path:'/my-job',title:'My Jobs'},
+        {path:'/',title:'My Jobs'},
         {path:'/companies',title:'Companies'},
         {path:'/post-job',title:'Post A Job'},
     ]

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const CompanyCard = ({ cmp }) => {
   return (
-    <div className='w-full h-16 flex gap-4 items-center justify-between bg-white shadow-md rounded'>
+    <div className='w-full h-16 flex gap-4 items-center justify-between bg-white shadow-md rounded px-10'>
       <div className='w-3/4 md:w-2/4 flex gap-4 items-center'>
-        <Link to={`/company-profile/${cmp?._id}`}>
+        <Link to={`/companies`}>
           <img
             src={cmp?.profileUrl}
             alt={cmp?.name}
@@ -14,7 +14,7 @@ const CompanyCard = ({ cmp }) => {
         </Link>
         <div className='h-full flex flex-col'>
           <Link
-            to={`/company-profile/${cmp?._id}`}
+            to={`/companies`}
             className='text-base md:text-lg font-semibold text-gray-600 truncate'
           >
             {cmp?.name}
