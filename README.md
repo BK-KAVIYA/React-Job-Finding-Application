@@ -2,6 +2,21 @@
 
 This is a job-finding web application built with React and Vite. It allows users to search for job listings, apply for jobs, and manage their job applications.
 
+# Project Features
+
+Here's what you can expect from this application:
+
+- 🚀 **React Router DOM** : Utilize React Router DOM for client-side routing.
+- 🔧 **Reusable Components** : Create reusable React components.
+- 🌐 **API Integration** : Integrate with external APIs to fetch job listings.
+- 🔍 **Filtering and Sorting** : Implement customized search options.
+- 📱 **Responsive Design** : Develop a responsive design using React's flexible layout components.
+- 🔄 **State Management** : Utilize React's state management capabilities to manage the application state.
+- ⚛️ **Conditional Rendering** : Use conditional rendering techniques to display different components or content.
+- 📝 **Form Handling** : Implement form components and handle form submissions.
+- ⚠️ **Error Handling** : Implement error handling mechanisms to handle different kind of errors.
+
+
 ## Installation
 
 1. Clone the repository:
