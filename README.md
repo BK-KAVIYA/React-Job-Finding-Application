@@ -107,7 +107,7 @@ Visit `http://localhost:5173/` in your browser to view the application.
 
 ## Screenshots
 
-Include screenshots of your application here.
+![Example Image](images/example.jpg)
 
 ## Contributing
 
