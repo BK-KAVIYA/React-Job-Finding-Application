@@ -1,16 +1,16 @@
 const Services = () => {
 	const servicesList = [
 		{
-			title: "Service",
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet nisi aspernatur eum quod.",
+			title: "Resume Writing Service",
+			desc: "Are you struggling to create a compelling resume that highlights your skills and experiences effectively? Our professional resume writing service is here to help. ",
 		},
 		{
-			title: "Service",
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet nisi aspernatur eum quod.",
+			title: "Interview Coaching Service",
+			desc: "Navigating the interview process can be daunting, but with our interview coaching service, you'll feel confident and prepared to impress potential employers.",
 		},
 		{
-			title: "Service",
-			desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet nisi aspernatur eum quod.",
+			title: "Career Counseling Service",
+			desc: "Unsure about your career path or feeling stuck in your current job? Our career counseling service offers personalized guidance and support to help you navigate your professional journey.",
 		},
 	];
 	return (
@@ -18,8 +18,7 @@ const Services = () => {
 			<div className="flex flex-col gap-1 text-center">
 				<h1 className="font-semibold text-5xl text-indigo-500"><span className="text-black">Our</span> Services</h1>
 				<p className="text-[18px] text-gray-600 max-w-[500px] leading-7">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat eveniet nisi
-					aspernatur eum quod.
+					Elevate your job search with our professionaljob-finding service.
 				</p>
 			</div>
 			<div className="flex md:w-[80%] my-0 mx-auto w-full items-center gap-8 md:flex-row flex-col">
