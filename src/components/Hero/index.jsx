@@ -9,7 +9,7 @@ const Hero = () => {
 		>
 			<div className="flex flex-col gap-8 z-50">
 				<span className="text-5xl font-semibold text-indigo-100"> Welcome to <span className='text-yellow-300'>NiceJob</span></span>
-				<p className="text-gray-200 max-w-[600px] leading-7">
+				<p className="text-gray-200 max-w-[600px] leading-7 text-justify">
 				Our app revolutionizes the job search process by leveraging advanced algorithms to match you with the perfect opportunities. Whether you're a seasoned professional or just starting your career journey, our platform caters to individuals of all backgrounds and experiences.
 				</p>
 				<button className="text-white rounded-full bg-indigo-500 w-40 p-3">

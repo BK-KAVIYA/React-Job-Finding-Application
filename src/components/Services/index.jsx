@@ -29,7 +29,7 @@ const Services = () => {
 							key={index}
 						>
 							<span className="text-indigo-500 font-semibold">{service.title}</span>
-							<p className="text-[15px] leading-7 text-gray-700">{service.desc}</p>
+							<p className="text-[15px] leading-7 text-gray-700 text-justify">{service.desc}</p>
 							<a
 								href="#"
 								className="text-indigo-500 text-[15px]"
